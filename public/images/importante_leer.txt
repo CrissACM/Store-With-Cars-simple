@@ -1,0 +1,16 @@
+Para acceder a los datos de la API de fakestoreapi.com (es gratuita y no necesita registro ni API key) se pueden usar estas direcciones:
+
+-Para obtener las CATEGORÍAS (tipos) de productos que existen:
+https://fakestoreapi.com/products/categories
+
+-Para obtener la lista de todos los productos (de los 20 que hay en total)
+https://fakestoreapi.com/products
+
+-Para obtener todos los productos de UNA de las categorias:
+https://fakestoreapi.com/products/category/${categoria}
+
+-Para obtener obtener SÓLO 1 producto (el primero, en vez de toda la lista):
+(al final añadir)?limit=1
+
+-Para obtener UN producto en concreto (a través de su id):
+https://fakestoreapi.com/products/${id}
